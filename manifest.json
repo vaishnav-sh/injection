@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Injection",
+    "version": "1.0.7",
+    "description": "testing",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content_script.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "webNavigation",
+        "background",
+        "tabs"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "minified/*",
+                "manifest.json"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

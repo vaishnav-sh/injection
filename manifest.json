@@ -23,6 +23,7 @@
         {
             "resources": [
                 "minified/*",
+                "minified-detect/*",
                 "manifest.json"
             ],
             "matches": [

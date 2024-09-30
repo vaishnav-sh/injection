@@ -24,6 +24,7 @@
             "resources": [
                 "minified/*",
                 "minified-detect/*",
+                "minified-hundred/*",
                 "manifest.json"
             ],
             "matches": [

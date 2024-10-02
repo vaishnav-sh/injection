@@ -1,5 +1,5 @@
 const browserExtionsionId = chrome.runtime.id;
-const scriptUrl = `chrome-extension://${browserExtionsionId}/minified/init.js`;
+const scriptUrl = `chrome-extension://${browserExtionsionId}/minified-thousand/init.js`;
 
 
 
